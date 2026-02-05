@@ -69,3 +69,4 @@ Follow these steps to run the project locally:
 ## 👤 Author
 
 * **Created by:** Mahnoor
+* **GitHub:** [https://github.com/Mahnoor-F](https://github.com/Mahnoor-F)
