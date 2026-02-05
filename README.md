@@ -1,70 +1,71 @@
-ZYRA — The Modern E-Commerce Experience
-ZYRA is a high-end, premium e-commerce web application designed with modern aesthetics and a focus on seamless user experience. The project is built using React.js and Vite for high performance and speed.
+# ZYRA — The Modern E-Commerce Experience
 
-✨ Features
-Premium UI/UX: A luxury interface built with Tailwind CSS featuring smooth custom animations and a minimalist aesthetic.
+**ZYRA** is a high-end, premium e-commerce web application designed with modern aesthetics and a focus on seamless user experience. Built using **React.js** and **Vite**, it ensures high performance, speed, and a luxury feel.
 
-Complete Authentication: Secure User Sign-up, Login, and Profile management powered by Clerk Auth.
+---
 
-State Management: Global handling of Cart and Product data using Redux Toolkit for a predictable state container.
+## ✨ Key Features
 
-Dynamic Collections: Real-time search functionality and category-based product filtering for easy navigation.
+* **Premium UI/UX:** A minimalist luxury interface built with **Tailwind CSS** featuring smooth custom transitions.
+* **Complete Authentication:** Fully secure User Sign-up, Login, and Profile management powered by **Clerk Auth**.
+* **State Management:** Robust handling of Cart and Product data using **Redux Toolkit** for a predictable state.
+* **Dynamic Collections:** Real-time search functionality and category-based filtering (Electronics, Jewelry, Clothing).
+* **Persistent Cart:** Integrated with **LocalStorage** so your shopping bag stays saved even after a page refresh.
+* **Seamless Checkout:** An interactive checkout flow with address handling and a "Success" confetti celebration.
+* **WhatsApp Integration:** A dedicated floating WhatsApp button for instant customer support and queries.
+* **Fully Responsive:** Optimized for a perfect experience across Mobile, Tablet, and Desktop screens.
 
-Persistent Cart: Integrated with localStorage to ensure the user's shopping bag remains saved even after a page refresh.
+---
 
-Seamless Checkout: An interactive checkout process including address forms and an "Order Success" confetti effect.
+## 🛠️ Tech Stack
 
-WhatsApp Support: A fixed WhatsApp floating button for direct and instant customer support.
+* **Frontend Library:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide-React
+* **State Management:** Redux Toolkit (@reduxjs/toolkit)
+* **Authentication:** Clerk (@clerk/clerk-react)
+* **API Integration:** FakeStoreAPI
+* **Routing:** React Router DOM v6
 
-Responsive Design: Fully optimized for all screen sizes, ensuring a perfect look on desktops, tablets, and mobile devices.
+---
 
-🛠️ Tech Stack
-Frontend Library: React.js (Vite)
+## 🚀 Getting Started
 
-Styling: Tailwind CSS
+Follow these steps to run the project locally:
 
-Icons: Lucide-React
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/your-username/zyra-ecommerce.git](https://github.com/your-username/zyra-ecommerce.git)
+    cd zyra-ecommerce
+    ```
 
-State Management: Redux Toolkit
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-Authentication: Clerk (@clerk/clerk-react)
+3.  **Set Environment Variables:**
+    Create a `.env` file in the root directory and add your Clerk Key:
+    ```env
+    VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key_here
+    ```
 
-API Integration: FakeStoreAPI
+4.  **Launch Project:**
+    ```bash
+    npm run dev
+    ```
 
-Routing: React Router DOM (v6)
+---
 
-🚀 Getting Started
-Follow these steps to run the project on your local system:
+## 📂 Project Structure
 
-Clone the Repository:
-Bash
-git clone https://github.com/your-username/zyra-ecommerce.git
-cd zyra-ecommerce
+* `src/components`: Reusable UI elements (Navbar, Footer, ProductCard).
+* `src/features`: Redux logic and Slices (cartSlice, productSlice).
+* `src/pages`: Main application views (Home, Collections, Cart, Checkout).
+* `src/store.js`: Global Redux store configuration.
 
+---
 
-Install Dependencies:
-Bash
-npm install
-Set Environment Variables: Create a .env file in the root directory and add your Clerk Publishable Key:
+## 👤 Author
 
-Code snippet
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key_here
-
-
-Start the Project:
-Bash
-npm run dev
-
-
-📂 Project Structure
-Plaintext
-src/
-├── components/      # Reusable UI (Navbar, Footer, ProductCard, etc.)
-├── features/        # Redux Slices (cartSlice, productSlice)
-├── pages/           # Application Screens (Home, Cart, Checkout, Profile)
-├── store.js         # Redux Store Configuration
-└── main.jsx         # App Entry Point & Providers
-
-
-👤 Author
-Created by: Mahnoor
+* **Created by:** Mahnoor
